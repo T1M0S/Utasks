@@ -1,7 +1,7 @@
 #вариант 7
 
 n = int(input("Введите натуральное число N: "))
-s = 0
+result = 0
 
 for i in range(1, n+1):
     sum = 1
@@ -9,5 +9,5 @@ for i in range(1, n+1):
     while(j > 0):
         sum *= j
         j -= 1
-    s +=sum
-print("Результат - " + str(s))
+    result +=sum
+print("Результат - " + str(result))
